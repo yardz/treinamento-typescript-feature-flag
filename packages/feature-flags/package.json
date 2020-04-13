@@ -1,0 +1,33 @@
+{
+  "name": "@treinamento/feature-flags",
+  "version": "1.0.0",
+  "description": "Pacote de Feature Flags",
+  "keywords": [
+    "Feature-Flags",
+    "POC",
+    "Treinamento"
+  ],
+  "author": "yardz <wadge.motta@gmail.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "build/index.js",
+  "scripts": {
+    "postinstall": "npm run build",
+    "build": "rm -rf build/ && tsc -p tsconfig.build.json",
+    "test": "jest",
+    "test:cov": "jest --coverage",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "devDependencies": {
+    "@types/jest": "24.9.1",
+    "@types/node": "12.12.35",
+    "jest": "24.9.0",
+    "prettier": "1.17.0",
+    "ts-jest": "24.3.0",
+    "tslint": "5.20.1",
+    "tslint-plugin-prettier": "2.2.0",
+    "typescript": "3.7.5"
+  },
+  "dependencies": {}
+}

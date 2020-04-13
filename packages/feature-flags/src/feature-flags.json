@@ -1,0 +1,32 @@
+{
+  "prod": {
+    "codeFlags": {
+      "CODE_FLAG_01": true,
+      "CODE_FLAG_02": false
+    },
+    "featureFlags": {
+      "FEATURE_FLAG_01": true,
+      "FEATURE_FLAG_02": false
+    }
+  },
+  "dev": {
+    "codeFlags": {
+      "CODE_FLAG_01": false,
+      "CODE_FLAG_02": true
+    },
+    "featureFlags": {
+      "FEATURE_FLAG_01": false,
+      "FEATURE_FLAG_02": true
+    }
+  },
+  "defaultFlags": {
+    "codeFlags": {
+      "CODE_FLAG_01": false,
+      "CODE_FLAG_02": false
+    },
+    "featureFlags": {
+      "FEATURE_FLAG_01": false,
+      "FEATURE_FLAG_02": false
+    }
+  }
+}
