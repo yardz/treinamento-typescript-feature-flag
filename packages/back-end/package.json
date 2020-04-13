@@ -1,7 +1,7 @@
 {
   "name": "@treinamento/back-end",
   "version": "1.0.0",
-  "description": "Pacote de Feature Flags",
+  "description": "Pacote de Back-end",
   "keywords": [
     "Feature-Flags",
     "POC",

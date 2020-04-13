@@ -1,45 +1,29 @@
 {
-  "ocasioes": [
+  "atividades": [
     {
-      "id": "1",
-      "nome": "Ocasião 01",
-      "meta-data": "Meta dados"
+      "id": 1,
+      "title": "Nome da task",
+      "done": true
     },
     {
-      "id": "2",
-      "nome": "Ocasião 02",
-      "meta-data": "Meta dados",
-      "outros-dados": "TESTE"
+      "id": 2,
+      "title": "Nome da task",
+      "done": true
     },
     {
-      "id": "3",
-      "nome": "Ocasião 03",
-      "meta-data": "Meta dados"
+      "id": 4,
+      "title": "Nome da task",
+      "done": true
     },
     {
-      "id": "4",
-      "nome": "Ocasião 04",
-      "meta-data": "Meta dados"
+      "id": 5,
+      "title": "Nome da task",
+      "done": true
     },
     {
-      "id": "5",
-      "nome": "Ocasião 05",
-      "meta-data": "Meta dados"
-    },
-    {
-      "id": "6",
-      "nome": "Ocasião 06",
-      "meta-data": "Meta dados"
-    },
-    {
-      "id": "7",
-      "nome": "Ocasião 07",
-      "meta-data": "Meta dados"
-    },
-    {
-      "id": "8",
-      "nome": "Ocasião 08",
-      "meta-data": "Meta dados"
+      "id": 6,
+      "title": "Nome da task",
+      "done": true
     }
   ]
 }
