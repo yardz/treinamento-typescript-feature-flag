@@ -28,6 +28,7 @@
     "@types/jest": "24.9.1",
     "@types/mysql": "^2.15.9",
     "@types/node": "12.12.35",
+    "@types/webpack-env": "^1.15.1",
     "jest": "24.9.0",
     "nodemon": "^2.0.3",
     "prettier": "1.17.0",
@@ -39,6 +40,7 @@
     "typescript": "3.7.5"
   },
   "dependencies": {
+    "@treinamento/feature-flags": "^1.0.0",
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
