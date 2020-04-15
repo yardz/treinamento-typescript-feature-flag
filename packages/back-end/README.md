@@ -1,11 +1,15 @@
 # `feature-flags`
 
-> TODO: description
+> backend of TODO list.
 
 ## Usage
 
+### Start MySQL DB
 ```
-const featureFlags = require('feature-flags');
+$ docker-compose up
+```
+### Start Server
+```
+$ npm run start:watch
+```
 
-// TODO: DEMONSTRATE API
-```

@@ -7,7 +7,7 @@
         "no-parameter-reassignment": true,
         "no-reference": true,
         "no-console": true,
-        "no-any": true,
+        "no-any": false,
         "no-unnecessary-type-assertion": true,
         "label-position": true,
         "no-conditional-assignment": true,
@@ -23,13 +23,13 @@
             true,
             "allow-empty-catch"
         ],
-        "no-floating-promises": true,
+        "no-floating-promises": false,
         "no-implicit-dependencies": false,
         "no-invalid-this": true,
         "no-string-throw": true,
         "no-unsafe-finally": true,
         "no-void-expression": [
-            true,
+            false,
             "ignore-arrow-function-shorthand"
         ],
         "no-duplicate-imports": true,
@@ -37,12 +37,12 @@
         "no-import-side-effect": false,
         "no-var-keyword": true,
         "triple-equals": true,
-        "deprecation": true,
+        "deprecation": false,
         "prefer-for-of": true,
         "unified-signatures": true,
         "prefer-const": true,
         "trailing-comma": true,
-        "prettier": true,
+        "prettier": false,
         "max-file-line-count": [
             true,
             150

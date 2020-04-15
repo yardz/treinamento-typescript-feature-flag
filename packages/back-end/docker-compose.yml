@@ -1,0 +1,14 @@
+version: "3"
+services:
+  mysql:
+    image: "mysql:5.7.28"
+    volumes:
+      - ./src/scripts/mysql:/docker-entrypoint-initdb.d/:ro
+    restart: always
+    environment:
+      MYSQL_USER: treinamento
+      MYSQL_PASSWORD: treinamento
+      MYSQL_ROOT_PASSWORD: treinamento
+      MYSQL_DATABASE: atividades
+    ports:
+      - "3306:3306"
