@@ -5,7 +5,7 @@ describe('Teste unitário "consultarAtividadesGateway"', () => {
 		jest.resetAllMocks();
 	});
 
-	it('deve disparar fazer signOut do aluno quando chamada de api retorna status 403', () => {
+	it('teste', () => {
 		expect(true).toBe(true);
 	});
 });
